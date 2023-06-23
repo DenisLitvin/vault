@@ -21,13 +21,13 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb:hover {
-  background: #0b5fdd;
+  background: #555;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  background: #555;
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  background: #555;
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  background: l#555;
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b5fdd', endColorstr='#4ca3ef', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
@@ -48,13 +48,19 @@ body {
   -ms-user-select: none;
   user-select: none;
   overflow-x: hidden;
+  background-color: #000;
+  border-color: #000;
 }
 
 img {
   pointer-events: none;
 }
 
-a, a:hover, a:visited, a:focus {
+
+a,
+a:hover,
+a:visited,
+a:focus {
   text-decoration: none !important;
 }
 
@@ -62,24 +68,19 @@ a, a:hover, a:visited, a:focus {
 #hero {
   color: rgb(255, 255, 255);
   text-shadow: 1px 2px 8px rgba(0, 0, 0, .3);
-  background: #0b5fdd;
+  background: #000000;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  background: #000000;
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  background: #000000;
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  background: #000000;
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b5fdd', endColorstr='#4ca3ef', GradientType=1);
+  filter: #000000;
   /* IE6-9 fallback on horizontal gradient */
-  box-shadow: 0px 5px 20px rgba(50, 50, 50, .5);
+  box-shadow: #000000;
 }
 
-/*--------------------------------------------------------------
-|                                                              |
-|      Developed By Al Nahian | Copyright ©2020 | TinMate      |
-|                                                              |
----------------------------------------------------------------*/
 /* navbar styling */
 .navbar {}
 
@@ -103,7 +104,7 @@ a, a:hover, a:visited, a:focus {
 
 /* hero row styling */
 .hero-row {
-  margin-top: 10%;
+  /* margin-top: 10%; */
 }
 
 /* hero description styling */
@@ -113,8 +114,9 @@ a, a:hover, a:visited, a:focus {
 }
 
 /* hero button styling */
-.get-started-button, .join-community-button {
-  margin-right: 5px;
+.get-started-button,
+.join-community-button {
+  margin-right: 15px;
 }
 
 /* hero image styling */
@@ -122,7 +124,7 @@ a, a:hover, a:visited, a:focus {
   margin-top: -10%;
   padding-bottom: 10%;
   margin-left: 40%;
-  transform: rotate(20deg);
+  width: 70%;
 }
 
 /* hero title styling */
@@ -138,6 +140,10 @@ a, a:hover, a:visited, a:focus {
   padding: 8% 20%;
 }
 
+.my {
+  padding: 10px;
+}
+
 .features-box {
   text-align: center;
 }
@@ -149,10 +155,10 @@ h3 {
 
 .features-icons {
   font-size: 55px;
-  background: -webkit-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 80%, #54a3ee 79%, #4ca3ef 100%);
+  background: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .features-icons:hover {
@@ -160,25 +166,20 @@ h3 {
   transition: 0.3s;
 }
 
-/*--------------------------------------------------------------
-|                                                              |
-|      Developed By Al Nahian | Copyright ©2020 | TinMate      |
-|                                                              |
----------------------------------------------------------------*/
 /* testimonial section styling */
 #testimonials {
   padding: 10% 10%;
   text-align: center;
-  background-color: #0b5fdd;
+  background-color: #000000;
   color: #fff;
   text-shadow: 1px 2px 8px rgba(0, 0, 0, .3);
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
   box-shadow: 0px 5px 20px rgba(50, 50, 50, .5);
 }
 
 #testimonials h2 {
   font-weight: 700 !important;
-  margin-bottom: 3%;
+  /* margin-bottom: 3%; */
 }
 
 .quotation-symbol {
@@ -202,13 +203,13 @@ h3 {
 
 em {
   font-size: 16px;
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
 }
 
 /* press section styling */
 #press {
   text-align: center;
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
   padding-top: 4%;
   padding-bottom: 4%;
 }
@@ -218,18 +219,27 @@ em {
   padding: 0 2% 0 2%;
 }
 
+.logoImage {
+  width: 70px;
+  height: 70px;
+}
+
+.featureImage {
+  height: 70px;
+}
+
 /* pricing section styling */
 #pricing {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0b5fdd+1,3690f0+60,54a3ee+79,4ca3ef+100 */
-  background: #0b5fdd;
+  background: #000000;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  background: #000000;
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  background: #000000;
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  background: #000000;
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b5fdd', endColorstr='#4ca3ef', GradientType=1);
+  filter: #000000;
   /* IE6-9 fallback on horizontal gradient */
   box-shadow: 0px 5px 20px rgba(50, 50, 50, .5);
   text-align: center;
@@ -239,7 +249,7 @@ em {
 
 .pricing-heading {
   color: #fff;
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
   text-shadow: 1px 2px 8px rgba(0, 0, 0, .3);
 }
 
@@ -250,13 +260,14 @@ em {
 
 .card-header {
   font-weight: 700 !important;
+  background-color: black;
 }
 
-.pricing-section-icon {
-  background: -webkit-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 80%, #54a3ee 79%, #4ca3ef 100%);
+/* .pricing-section-icon {
+  background: #2a2a2a;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 .rotated-icon {
   transform: rotate(-45deg);
@@ -264,7 +275,7 @@ em {
 
 .price {
   font-weight: 700 !important;
-  color: #3690f0;
+  color: #eff2f5;
 }
 
 h4 {
@@ -284,23 +295,23 @@ h4 {
 
 /* footer section styling */
 #footer {
-  background: #0b5fdd;
+  background: #000000;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  background: #000000;
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  background: #000000;
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #0b5fdd 1%, #3690f0 60%, #54a3ee 79%, #4ca3ef 100%);
+  background: #000000;
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b5fdd', endColorstr='#4ca3ef', GradientType=1);
+  filter: #000000;
   /* IE6-9 fallback on horizontal gradient */
-  color: #fff;
+  color: #000000;
   text-align: center;
   padding: 2% 0%;
 }
 
 .meet-the-dev {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   text-shadow: 1px 2px 8px rgba(0, 0, 0, .3);
 }
 
@@ -308,16 +319,6 @@ h4 {
   font-size: 14px;
 }
 
-/*--------------------------------------------------------------
-|                                                              |
-|      Developed By Al Nahian | Copyright ©2020 | TinMate      |
-|                                                              |
----------------------------------------------------------------*/
-/*--------------------------------------------------------------
-|                                                              |
-|     Media Queries & Responsive Styling Starts From Here     |
-|                                                              |
----------------------------------------------------------------*/
 /* ------------for mobile------------ */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -327,7 +328,9 @@ h4 {
     font-size: 1.2rem !important;
   }
 
-  h2, h3, h4 {
+  h2,
+  h3,
+  h4 {
     font-size: 1rem !important;
   }
 
@@ -365,7 +368,7 @@ h4 {
 
   /* testimonials section rules */
   #testimonials {
-    padding: 10% 5%;
+    /* padding: 10% 5%; */
   }
 
   .carousel-item img {
@@ -388,6 +391,7 @@ h4 {
 
   /* pricing section styling */
   #pricing {
+    background: #000000;
     padding: 10% 10%;
   }
 
@@ -397,7 +401,7 @@ h4 {
   }
 
   .meet-the-dev {
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
   }
 
   .social-buttons button {
@@ -409,6 +413,18 @@ h4 {
   #cta {
     margin: 10% 0;
   }
+}
+
+
+/* -------------FAQ--------------*/
+.text-primary {
+  color: #ffffff;
+}
+
+.faq {
+  background: #000000;
+  color: #ffffff;
+  padding: 100px;
 }
 
 /* ------------for tablet------------ */
@@ -467,6 +483,15 @@ h4 {
   }
 }
 
+html {
+  background-color: black
+}
+
+* {
+  color: #ffffff;
+  background-color: black;
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
 
@@ -476,14 +501,3 @@ h4 {
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {}
-
-  /*--------------------------------------------------------------
-|                                                              |
-|     Media Queries & Responsive Styling Ends Right Here      |
-|                                                              |
----------------------------------------------------------------*/
-  /*--------------------------------------------------------------
-|                                                              |
-|      Developed By Al Nahian | Copyright ©2020 | TinMate      |
-|                                                              |
----------------------------------------------------------------*/
