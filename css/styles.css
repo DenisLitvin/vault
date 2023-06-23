@@ -116,10 +116,10 @@ a:focus {
 
 /* hero image styling */
 .hero-img {
-  margin-top: 30%;
-  margin-bottom: 10%;
+  margin-top: 10%;
+  margin-bottom: 0%;
   margin-left: 40%;
-  width: 40%;
+  width: 60%;
 }
 
 /* hero title styling */
